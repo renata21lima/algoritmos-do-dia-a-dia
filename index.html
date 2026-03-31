@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="shortcut icon" href="./src/assets/favicon.png" type="image/x-icon">
     <title>Algoritmos do Dia a Dia</title>
 </head>
-<body>
-    <header>
+<body class="flex flex-col justify-center items-center min-h-screen gap-20 ">
+    <header class="flex flex-col gap-4 items-center">
         <p>ATIVIDADE DE ALGORITMOS</p>
         <h1>Algoritmos Passo a Passo</h1>
         <p>Atividade 1 - Introdução aos Algoritmos</p>
     </header>
-    <main>
-        <details>
-            <summary>
-                <img src="./src/assets/brigadeiro.png" alt="Brigadeiro com granulado colorido">
+    <main class="flex flex-col gap-10">
+        <details class="flex flex-col">
+            <summary class="flex gap-4">
+                <img src="./src/assets/brigadeiro.png" alt="Brigadeiro com granulado colorido" class="w-36">
                 <div class="title">
                     <h3>Brigadeiro</h3>
                     <p>Algoritmo para preparar brigadeiro</p>
@@ -36,8 +37,8 @@
         </details>
 
         <details>
-            <summary>
-                <img src="./src/assets/rotina matinal.png" alt="Ícone de rotina matinal com despertador, café e checklist">
+            <summary class="flex">
+                <img src="./src/assets/rotina matinal.png" alt="Ícone de rotina matinal com despertador, café e checklist" class="w-36">
                 <div class="title">
                     <h3>Rotina Matinal</h3>
                     <p>Algoritmo para Rotina</p>
@@ -59,13 +60,13 @@
         </details>
 
         <details>
-            <summary>
-                <img src="./src/assets/preparo de café.png" alt="Ícone de preparo de café">
+            <summary class="flex">
+                <img src="./src/assets/preparo de café.png" alt="Ícone de preparo de café" class="w-36">
                 <div class="title">
                     <h3>Preparo de Café</h3>
                     <p>Algoritmo para preparo de café</p>
                 </div>
-            </summary>
+            </summary class="flex">
             <ol>
                 <li>Coloque água na chaleira</li>
                 <li>Leve a chaleira ao fogo</li>
@@ -78,8 +79,8 @@
         </details>
 
         <details>
-            <summary>
-                <img src="./src/assets/preparo de x-burguer.png" alt="Ícone de preparo de X-Burguer">
+            <summary class="flex">
+                <img src="./src/assets/preparo de x-burguer.png" alt="Ícone de preparo de X-Burguer" class="w-36">
                 <div class="title">
                     <h3>Preparo de X-Burguer</h3>
                     <p>Algoritmo para preparo de X-Burguer</p>
