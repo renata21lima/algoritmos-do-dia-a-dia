@@ -7,22 +7,33 @@
     <link rel="shortcut icon" href="./src/assets/favicon.png" type="image/x-icon">
     <title>Algoritmos do Dia a Dia</title>
 </head>
-<body class="flex flex-col justify-center items-center min-h-screen gap-2 bg-[hsl(220,25%,10%)] text-[hsl(210,20%,92%)]">
-    <header class="flex flex-col gap-4 items-center p-14">
+<body class="flex flex-col justify-center items-center gap-2 min-h-screen bg-[hsl(220,25%,10%)] text-[hsl(210,20%,92%)]">
+    <header class="flex flex-col gap-4 items-center p-14 h-46">
         <p class="text-[hsl(210,100%,60%)] text-sm">ATIVIDADE DE ALGORITMOS</p>
         <h1 class="text-3xl font-bold">Algoritmos Passo a Passo</h1>
         <p class="text-[hsl(215,15%,58%)]">Atividade 1 - Introdução aos Algoritmos</p>
     </header>
-    <main class="flex flex-col gap-8 ">
-        <details class="flex flex-col justify-center items-start gap-4 bg-[hsl(220,20%,16%)] p-6 rounded-lg w-200">
-            <summary class="flex justify-center items-start gap-6 ">
-                <img src="./src/assets/brigadeiro.png" alt="Brigadeiro com granulado colorido" class="w-36 bg-[hsl(220,15%,22%)] p-2 rounded">
-                <div class="title">
-                    <h3>Brigadeiro</h3>
-                    <p>Algoritmo para preparar brigadeiro</p>
+    <main class="flex flex-col gap-2">
+        <details class="group hover:shadow-[0_0_20px_hsl(210,100%,60%)] flex flex-col gap-4 bg-[hsl(220,20%,16%)] p-6 rounded-lg max-w-2xl w-full">
+            <summary class="flex justify-between items-center cursor-pointer list-none w-full">
+                <div class="flex items-center gap-6">
+                    <img src="./src/assets/brigadeiro.png" 
+                        alt="Brigadeiro com granulado colorido" 
+                        class="w-20 bg-[hsl(220,15%,22%)] p-2 rounded">
+
+                    <div class="flex flex-col gap-1">
+                        <h3 class="text-[hsl(170,70%,50%)] text-xl">Brigadeiro</h3>
+                        <p class="text-[hsl(215,15%,58%)]">
+                            Algoritmo para preparar brigadeiro
+                        </p>
+                    </div>
                 </div>
+                <span class="transition-transform duration-300 group-open:rotate-180">
+                    ▼
+                </span>
             </summary>
-            <ol>
+
+            <ol class="flex flex-col gap-2 pl-5 list-decimal">
                 <li>Abra o armário</li>
                 <li>Retire os ingredientes</li>
                 <li>Escolha uma panela média</li>
@@ -30,21 +41,33 @@
                 <li>Leve a panela ao fogo médio</li>
                 <li>Mexa a mistura até que comece a grudar no fundo da panela</li>
                 <li>Desligue o fogo e deixe a mistura esfriar</li>
-                <li>Unte as mãos com manteiga e faça bolinhas com a mistura</li>
-                <li>Passe as bolinhas no granulado</li> 
-                <li>Coloque as bolinhas em um recipiente</li>
+                <li>Unte as mãos com manteiga e faça bolinhas</li>
+                <li>Passe no granulado</li> 
+                <li>Coloque em um recipiente</li>
             </ol>
         </details>
 
-        <details>
-            <summary class="flex">
-                <img src="./src/assets/rotina matinal.png" alt="Ícone de rotina matinal com despertador, café e checklist" class="w-36">
-                <div class="title">
-                    <h3>Rotina Matinal</h3>
-                    <p>Algoritmo para Rotina</p>
+        <details class="group hover:shadow-[0_0_20px_hsl(210,100%,60%)] flex flex-col gap-4 bg-[hsl(220,20%,16%)] p-6 rounded-lg max-w-2xl w-full">
+
+            <summary class="flex justify-between items-center cursor-pointer list-none w-full">
+                <div class="flex items-center gap-6">
+                    <img src="./src/assets/rotina matinal.png" 
+                        alt="Ícone de rotina matinal" 
+                        class="w-20 bg-[hsl(220,15%,22%)] p-2 rounded">
+
+                    <div class="flex flex-col gap-1">
+                        <h3 class="text-[hsl(170,70%,50%)] text-xl">Rotina Matinal</h3>
+                        <p class="text-[hsl(215,15%,58%)]">
+                            Algoritmo para rotina
+                        </p>
+                    </div>
                 </div>
+                <span class="transition-transform duration-300 group-open:rotate-180">
+                    ▼
+                </span>
             </summary>
-            <ol>
+
+            <ol class="flex flex-col gap-2 pl-5 list-decimal">
                 <li>Abra os olhos</li>
                 <li>Levante da cama</li>
                 <li>Entre no banheiro</li>
@@ -52,47 +75,69 @@
                 <li>Tome banho</li>
                 <li>Seque o corpo</li>
                 <li>Seque o cabelo</li>
-                <li>Arrumeo cabelo</li>]
+                <li>Arrume o cabelo</li>
                 <li>Vista-se</li>
                 <li>Tome café da manhã</li>
                 <li>Vá para a escola</li>
             </ol>
         </details>
 
-        <details>
-            <summary class="flex">
-                <img src="./src/assets/preparo de café.png" alt="Ícone de preparo de café" class="w-36">
-                <div class="title">
-                    <h3>Preparo de Café</h3>
-                    <p>Algoritmo para preparo de café</p>
+        <details class="group hover:shadow-[0_0_20px_hsl(210,100%,60%)] flex flex-col gap-4 bg-[hsl(220,20%,16%)] p-6 rounded-lg max-w-2xl w-full">
+            <summary class="flex justify-between items-center cursor-pointer list-none w-full">
+                <div class="flex items-center gap-6">
+                    <img src="./src/assets/preparo de café.png" 
+                        alt="Ícone de preparo de café" 
+                        class="w-20 bg-[hsl(220,15%,22%)] p-2 rounded">
+
+                    <div class="flex flex-col gap-1">
+                        <h3 class="text-[hsl(170,70%,50%)] text-xl">Preparo de Café</h3>
+                        <p class="text-[hsl(215,15%,58%)]">
+                            Algoritmo para preparo de café
+                        </p>
+                    </div>
                 </div>
-            </summary class="flex">
-            <ol>
+                <span class="transition-transform duration-300 group-open:rotate-180">
+                    ▼
+                </span>
+            </summary>
+
+            <ol class="flex flex-col gap-2 pl-5 list-decimal">
                 <li>Coloque água na chaleira</li>
-                <li>Leve a chaleira ao fogo</li>
-                <li>Enquanto a água aquece, moa o café</li>
-                <li>Coloque o café moído no filtro</li>
-                <li>Despeje a água quente sobre o café</li>
-                <li>Deixe o café infundir por alguns minutos</li>
-                <li>Serve o café em xícaras</li>
+                <li>Leve ao fogo</li>
+                <li>Moa o café</li>
+                <li>Coloque no filtro</li>
+                <li>Despeje a água quente</li>
+                <li>Espere alguns minutos</li>
+                <li>Sirva o café</li>
             </ol>
         </details>
 
-        <details>
-            <summary class="flex">
-                <img src="./src/assets/preparo de x-burguer.png" alt="Ícone de preparo de X-Burguer" class="w-36">
-                <div class="title">
-                    <h3>Preparo de X-Burguer</h3>
-                    <p>Algoritmo para preparo de X-Burguer</p>
+        <details class="group hover:shadow-[0_0_20px_hsl(210,100%,60%)] flex flex-col gap-4 bg-[hsl(220,20%,16%)] p-6 rounded-lg max-w-2xl w-full">
+            <summary class="flex justify-between items-center cursor-pointer list-none w-full">
+                <div class="flex items-center gap-6">
+                    <img src="./src/assets/preparo de x-burguer.png" 
+                        alt="Ícone de preparo de X-Burguer" 
+                        class="w-20 bg-[hsl(220,15%,22%)] p-2 rounded">
+
+                    <div class="flex flex-col gap-1">
+                        <h3 class="text-[hsl(170,70%,50%)] text-xl">Preparo de X-Burguer</h3>
+                        <p class="text-[hsl(215,15%,58%)]">
+                            Algoritmo para preparo de X-Burguer
+                        </p>
+                    </div>
                 </div>
+                <span class="transition-transform duration-300 group-open:rotate-180">
+                    ▼
+                </span>
+
             </summary>
-            <ol>
+            <ol class="flex flex-col gap-2 pl-5 list-decimal">
                 <li>Pegue uma frigideira</li>
-                <li>Leve a frigideira ao fogo</li>
-                <li>Coloque óleo na frigideira até formar uma pequena camada</li>
-                <li>Coloque a carne na frigideira</li>
-                <li>Deixe a carne assar por alguns minutos</li>
-                <li>Coloque o pão, queijo e demais ingredientes</li>
+                <li>Leve ao fogo</li>
+                <li>Adicione óleo</li>
+                <li>Coloque a carne</li>
+                <li>Asse por alguns minutos</li>
+                <li>Adicione pão e ingredientes</li>
                 <li>Feche o X-Burguer</li>
             </ol>
         </details>
