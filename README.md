@@ -1,6 +1,7 @@
 # 🧠 Atividade de Algoritmos - Passos Lógicos
 
 Este repositório contém a resolução de uma atividade de algoritmos, onde foram desenvolvidos passos lógicos para tarefas do dia a dia.
+🔗https://renata21lima.github.io/algoritmos-do-dia-a-dia/
 
 ---
 
